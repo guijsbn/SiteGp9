@@ -117,8 +117,7 @@ align-items: center;
 
 .estudante-todos{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%; 
-    grid-template-rows: 50px 50px;  
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .estudante-imagem-bea{
@@ -130,7 +129,7 @@ align-items: center;
 }
 
 .estudante-imagem-isa{
-    width: 130px;
+    width: 120px;
 }
 
 .estudante-imagem-liv{
@@ -138,7 +137,7 @@ align-items: center;
 }
 
 .estudante-imagem-gui{
-    width: 120px;
+    width: 110px;
 }
 
 .rodape {
