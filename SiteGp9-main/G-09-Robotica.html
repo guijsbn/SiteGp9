@@ -1,0 +1,241 @@
+
+<!-- saved from url=(0014)about:internet -->
+<html lang="pt"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Estilo de Site</title>
+    <link rel="stylesheet" href="style-Robotica.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./G-09-trab_files/css2" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="logo Site.jpg" alt="Site">
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item">Escola</li>
+            <li class="cabecalho-lista-item">Estudante</li>
+    </header>
+    <section id="Trab1">
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> Semaforo </h2>
+            <br>
+            <p class="paragrafo-um"></p>
+            <br>
+            <h3 class="paragrafo-um">Montagem Semáforo Carros</h3>
+            <br>
+            <p class="paragrafo-um">Adicione a placa do Arduino ao projeto.</p>
+
+                <p>Adicione a placa do protoboard.</p>
+
+                <p>Com um jumper de cor azul conecte no gnd do Arduino ao
+                    seguimento <br> negativo do photoboard.</p>
+
+                <p>Conecte um led no conector H8 e H11 e H14 no
+                    protoboard, sendo que o H8 é o <br>  Cátodo e H9 o Anodo,H11
+                    é o Cátodo e H12 o Anodo e H14 é o Cátodo e H15 o
+                    Anodo</p>
+
+                <p>Com um jumper de cor preta conecte o seguimento
+                    negativo no G7, <br>G 11 e G14 do protoboard</p>
+
+                <p>Conecte um resistor de 220 ohms no conector E8 e E12 e
+                    E15</p>
+
+                <p>Com um jumper de cor vermelho, laranja e preto conecte a
+                    porta 13, 12 e 11 do <br>arduino com o conector D8, D12 e
+                    D15 do protoboard</p>
+        </div>
+        <br>
+        <img class="foto-corpo" src="montagem.jpeg" alt="foto do corpo">
+    </section>
+    <section id="Trab2">
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> </h2>
+            
+            <p class="paragrafo-um"></p>
+            <br>
+            <h3 class="paragrafo-um">Codigo Semáforo Pedestre
+                </h3>
+            <br>
+            <p class="paragrafo-um">Quando iniciado o programa faça um loop infinito com os comandos abaixo:</p>
+
+                <p>Definir Pino 13 como alto e o pino 9 como alto</p>
+                <p>aguarde 5 seg</p>
+                <p>Definir Pino 13 como baixo e o pino 9 como baixo</p>
+                <p>aguarde 100 milisegundos</p>
+                <p>Definir Pino 11 como alto e o pino 10 como alto</p>
+                <p>aguarde 5 seg</p>
+                <p>Definir Pino 11 como baixo</p>
+                <p>aguarde 100 milisegundos</p>
+                <p>Definir Pino 12 como alto</p>
+                <p>aguarde 2 seg</p>
+                <p>Definir Pino 10 como baixo e o pino 12 como baixo</p>
+                <p>aguarde 100 milisegundos</p>
+        </div>
+        <img class="foto-corpo2" src="codigo montagem.png" alt="foto do corpo">
+    </section>
+
+    <section id="Trab3">
+        <img class="foto-corpo3" src="push buttom.jpeg" alt="foto do corpo">
+        <br>
+        <img class="foto-corpo3" src="push buttom 2.jpeg" alt="foto do corpo">
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> </h2>
+            
+            <p class="paragrafo-um"></p>
+            <br>
+            <h3 class="paragrafo-um">Push buttom
+                </h3>
+            <br>
+            <p class="paragrafo-um">Pegue o arduino e o
+                protoboard, ligue o GND ao seguimento <br> negativo no protoboard, ligue o 5V ao
+                seguimento positivo no protoboard.</p>
+
+                <p>Adicione o push button no protoboard na posição e10, f10 e e8, f8</p>
+                <p>Ligue o seguimento positivo ao conector j10</p>
+                <p>conecte o resistor de 10k ohms no protoboard nos conectores b8 e b4.</p>
+                <p>com um jumper ligue o seguimento do do protoboard <br> contando nos contatos e4 e f4.</p>
+                <p>conecte um led verde no protoboard nos conectores g4 e g3.</p>
+                <p>com um jumper conectado no seguimento negativo do protoboard ao j3</p>
+        </div>
+      
+    </section>
+        <section id="Trab4">
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> </h2>
+            
+            <p class="paragrafo-um"></p>
+            <br>
+            <h3 class="paragrafo-um">Potenciometro
+                </h3>
+            <br>
+            <p class="paragrafo-um">Pegue o arduino e o
+                protoboard, ligue o GND ao seguimento <br> negativo no protoboard, ligue o 5V ao
+                seguimento positivo no protoboard.</p>
+
+                <p>O primeiro passo é a montagem dos componentes eletrônicos.</p>
+                <p> Insira o potenciômetro na placa Protoboard. </p>
+                <p>A ligação do potenciômetro com a placa de Arduino Uno, será realizada com o auxílio de 3</p>
+                <p>jumpers macho-macho. Conecte 1 jumper no terminal direito do potenciômetro e ao pino 5V da placa de Arduino Uno. </p>
+                <p> Com outro jumper, interligue o terminal esquerdo do potenciômetro ao pino GND</p>
+                <p> do Arduino. Por fim, conecte, com auxílio de outro jumper, o terminal <br>central (móvel) do potenciômetro à porta analógica A0 da placa mi-
+                    crocontroladora</p>
+        </div>
+        <img class="foto-corpo4" src="potenciometro montagem.jpeg" alt="foto do corpo">
+        <br>
+        <img class="foto-corpo4" src="potenciometro 1.jpeg" alt="foto do corpo">
+    </section>
+
+
+    <section id="Trab5">
+        <br>
+        <img class="foto-corpo5-1" src="contador2.jpeg" >
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> </h2>
+            
+            <p class="paragrafo-um"></p>
+            <br>
+            <h3 class="paragrafo-um">Display Led 4 Digitos
+                </h3>
+            <br>
+            <p class="paragrafo-um">Vamos iniciar a montagem dos componentes eletrônicos conectando o
+                módulo display 7 segmentos ao Arduíno, conforme as etapas a seguir.
+                </p>
+
+                <p>Ligue com dois jumpers macho-fêmea (caso não possua, pode criar
+                    unindo dois jumpers macho-macho a dois jumpers fêmea-fêmea)</p>
+                <p> os pinos
+                    GND e 5V da placa Arduino aos pinos GND e VCC do display 7 segmentos,
+                    respectivamente.</p>
+                <p>Utilizando outros 2 jumpers macho-fêmea, conecte o pino CLK do
+                    módulo display à porta analógica A4 do Arduino e o pino DIO à porta analógica
+                    A5</p>
+                <p> Esse módulo aceita qualquer porta digital ou analógica para a
+                    programação.</p>
+                <p> Com os componentes eletrônicos montados, vamos programar, por có-
+                    digo e por blocos, o display de 7 Segmentos com 4 dígitos para que atue
+                    
+                    como um contador representando valores de 0 a 9999.</p>
+
+        </div>
+       
+    </section>  
+    
+    
+    <section id="Trab5">
+      
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> </h2>
+            
+            <p class="paragrafo-um"></p>
+            <br>
+            <h3 class="paragrafo-um">Display Led 4 Digitos
+                </h3>
+            <br>
+            <p class="paragrafo-um">Para iniciar a programação, conecte a placa Arduino ao computador,
+
+               
+                
+                
+                </p>
+
+                <p> usando um cabo USB, para que ocorra a comunicação entre a placa micro-
+                    controladora e o software Arduino IDE. Nessa programação, utilizaremos a</p>
+                <p> biblioteca “TM1637Display” desenvolvida por Avishay Orpaz, que auxiliará
+                    no controle do display.</p>
+                <p> Para recordar como instalar uma biblioteca, consulte
+                    a Aula 05 – Softwares Arduino IDE e mBlock do módulo 1.</p>
+
+        </div>
+        <img class="foto-corpo5" src="cod led sequencial.jpeg" alt="foto do corpo">
+        <br>
+        <img class="foto-corpo5-1" src="cod led sequencial 2.jpeg" alt="foto do corpo">
+    </section>
+    
+    <section id="Trab6">
+        <img class="foto-corpo6" src="display led 12.jpeg" alt="foto do corpo">
+        <br>
+        <img class="foto-corpo6-1" src="display led 1.jpeg" alt="foto do corpo">
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> </h2>
+            
+            <p class="paragrafo-um"></p>
+            <br>
+            <h3 class="paragrafo-um">Display Led 4 Digitos
+                </h3>
+            <br>
+            <p class="paragrafo-um">Para iniciar a programação, conecte a placa Arduino ao computador,
+
+               
+                
+                
+                </p>
+
+                <p> usando um cabo USB, para que ocorra a comunicação entre a placa micro-
+                    controladora e o software Arduino IDE. Nessa programação, utilizaremos a</p>
+                <p> biblioteca “TM1637Display” desenvolvida por Avishay Orpaz, que auxiliará
+                    no controle do display.</p>
+                <p> Para recordar como instalar uma biblioteca, consulte
+                    a Aula 05 – Softwares Arduino IDE e mBlock do módulo 1.</p>
+
+        </div>
+
+    </section> 
+        <section id="Trab6">
+
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo">Programação</h2>
+
+        </div>
+        <img class="foto-corpo7" src="cod led sequencial.jpeg" alt="foto do corpo">
+        <br>
+        <img class="foto-corpo7" src="cod led sequencial 2.jpeg" alt="foto do corpo">
+        </section>
+</body>
+<footer class="rodape">  
+    <img class="rodape-imagem" src="logo Site.jpg" alt="logo do site">
+</footer>
+</html>
